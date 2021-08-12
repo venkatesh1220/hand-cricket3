@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Play zone */
+
+
+#playzone{
+    /* visibility:hidden; */
+    display:none;
+}
+.container {
+    width: 100%;
+    display: flex;
+}
+
+#human {
+    width: 40%;
+    height: 300px;
+}
+
+#comp {
+    width: 40%;
+    height: 300px;
+}
+
+.players {
+    margin: 30px 30px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#score {
+    text-align: center;
+    width: 30ch;
+    padding: 10px;
+    height: auto;
+    margin: auto;
+    color:white;
+    background: black;
+    border-radius: 10px;
+}
+
+.choice {
+    font-size: 80px;
+}
+
+#buttons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.choice-buttons {
+    height: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+}
+
+.choice-buttons:hover{
+    color:white;
+    background: black;
+    transition:0.6s ease;
+    transform: scale(1.1);
+}
+img{
+    width:100px;
+    aspect-ratio:1/1;
+    background-size: contain;
+}
+
+#target{
+    width:40%;
+    margin:auto;
+    height:auto;
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+    transition:all 2s ease;
+    visibility: hidden;
+}
+
+
+/* Menu zone */
+
+#menuzone{
+    background:rgb(250, 239, 195);
+    width:40%;
+    margin:20% auto;
+    height:300px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.menu{
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border:none;
+    background: cornsilk;
+}
+
+.menu:hover{
+    /* border:1px solid black; */
+    /* background-color: black; */
+    background: linear-gradient(45deg,rgb(241, 209, 78),transparent);
+}
+
+#play{
+    width:60%;
+    margin-top: 20px;
+    /* padding:10%; */
+    /* background: cornsilk; */
+}
+#ins{
+    width:60%;
+    /* padding-bottom: 10px; */
+    /* background: cornsilk; */
+
+}
+#about{
+    width:60%;
+    /* padding-bottom: 10px; */
+    /* background: cornsilk; */
+
+}
+#exit{
+    width:60%;
+    /* padding-bottom: 10px; */
+    /* background: cornsilk; */
+    margin-bottom: 20px;;
+}
+
+#help{
+    text-decoration: none;
+    color:black;
+}
+#help:hover{
+    color:black;
+}
